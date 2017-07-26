@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+
+/*navigation*/
+
+nav {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 12px;
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    background-color: gray;
+}
+
+
+/* header */
+
+#displaycontainer img {
+    position: relative;
+    width: 100%;
+}
+
+#displaycontainer .img-header {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0%);
+    color: white;
+    text-align: center;
+}
+
+
+/*article*/
+
+article {
+    padding-top: 50px;
+}
+
+article .main-text,
+#promotion-text {
+    text-align: center;
+}
+
+article .main-text {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+article #promotion-text {
+    color: gray;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+article p {
+    text-align: justify;
+    width: 60%;
+    margin: auto;
+    line-height: 1.5;
+}
+
+article .photographer {
+    margin: auto;
+    text-align: center;
+}
+
+article .photographer img {
+    width: 150px;
+    padding-top: 30px;
+    display: inline-block;
+    margin: 15px;
+}
+
+
+/*section*/
+
+section {
+    background-color: black;
+}
+
+section #tour-text {
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    text-transform: uppercase;
+}
+
+section #tour-promotion {
+    color: gray;
+    text-align: center;
+    font-style: italic;
+}
+
+section ul {
+    width: 60%;
+    background-color: white;
+    list-style-type: none;
+    padding: 10px;
+    margin: auto;
+}
+
+section ul li {
+    border-bottom: 1px solid grey;
+    text-decoration: none;
+    color: grey;
+    padding: 10px;
+}
+
+section ul li:last-child {
+    border-bottom: none;
+}
+
+section ul li .sold {
+    display: inline;
+    background-color: #f44336;
+    float: right;
+    color: white;
+    font-size: 20px;
+    margin: -5px;
+}
+
+
+/*place to visit*/
+
+#placetovisit {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#placetovisit .discription {
+    display: inline-block;
+}
+
+#placetovisit .discription img {
+    width: 240px;
+    padding-top: 50px;
+    border-bottom: 2px solid grey;
+}
+
+#placetovisit .discription .discription-text {
+    background-color: white;
+    margin-top: -8px;
+    text-align: left;
+}
+
+#placetovisit .discription h3 {
+    color: black;
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+#placetovisit .discription .arrive-time {
+    font-style: italic;
+    color: grey;
+}
